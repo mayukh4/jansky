@@ -4,7 +4,9 @@ Say "Hey Jansky" and talk. It answers, switches your lights and fan, keeps your 
 you. The model, the speech recognition and the voice all run on the Pi. No subscription, no account, and your
 voice never leaves the room.
 
-![Jansky on the desk](docs/img/hero.jpg)
+[![Jansky on the desk](docs/img/hero.jpg)](https://youtu.be/XZp0-GFENLU)
+
+**▶ Watch the build: https://youtu.be/XZp0-GFENLU**
 
 | | | |
 |---|---|---|
@@ -98,4 +100,4 @@ Built on [HailoRT](https://github.com/hailo-ai/hailort), [Qwen3](https://github.
 [openWakeWord](https://github.com/dscripka/openWakeWord) (Silero VAD). Version 1:
 [pibot_local_agent](https://github.com/mayukh4/pibot_local_agent).
 
-Video: *coming soon*. MIT License.
+Video: [OpenAI Charges $100/Month. My Local AI Agent Runs on a Pi](https://youtu.be/XZp0-GFENLU). MIT License.
