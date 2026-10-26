@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#1a1f48"/><stop offset="0.6" stop-color="#0e1230"/><stop offset="1" stop-color="#070b1a"/>
+    </radialGradient>
+    <radialGradient id="tube" cx="50%" cy="38%" r="75%">
+      <stop offset="0" stop-color="#fff3d6"/><stop offset="0.35" stop-color="#ffc46b"/><stop offset="1" stop-color="#ff8f3f"/>
+    </radialGradient>
+    <filter id="bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#sky)"/>
+  <g fill="#dfe2ff" opacity="0.55">
+    <circle cx="38" cy="44" r="1.6"/><circle cx="214" cy="36" r="1.2"/><circle cx="198" cy="212" r="1.4"/>
+    <circle cx="52" cy="206" r="1"/><circle cx="128" cy="26" r="1"/><circle cx="226" cy="132" r="1.1"/>
+  </g>
+  <g filter="url(#bloom)">
+    <rect x="58" y="72" width="54" height="72" rx="20" fill="url(#tube)"/>
+    <rect x="144" y="72" width="54" height="72" rx="20" fill="url(#tube)"/>
+    <path d="M76 186 C 96 186, 102 172, 116 180 S 140 196, 152 182 S 170 178, 180 186"
+          fill="none" stroke="#ffc46b" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

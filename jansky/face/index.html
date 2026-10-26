@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jansky</title>
+<link rel="stylesheet" href="face.css">
+<link rel="icon" href="icon.svg">
+</head>
+<body>
+<main id="stage" aria-label="Jansky's face">
+  <canvas id="sky" width="800" height="480"></canvas>
+
+  <section id="card" aria-live="polite" hidden></section>
+
+  <aside id="timers" aria-label="Running timers"></aside>
+
+  <!-- The list stays up until it is closed by touch. Tap an item to tick it off. -->
+  <section id="todo" aria-label="Your list" hidden>
+    <header>
+      <h2>Your list</h2>
+      <button id="todo-close" type="button" aria-label="Close the list"><span aria-hidden="true">&#x2715;</span></button>
+    </header>
+    <ul id="todo-items"></ul>
+    <p id="todo-more"></p>
+  </section>
+  <button id="todo-badge" type="button" aria-label="Show your list" hidden></button>
+
+  <div id="muted" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/>
+      <path d="M5 11a7 7 0 0 0 14 0M12 18v3M4 4l16 16"/></svg>
+    Muted <small>hold to unmute</small>
+  </div>
+
+  <p id="caption" aria-live="polite"></p>
+
+  <!-- Swipe down (or press Escape) to reveal; it slides away again after a few seconds. -->
+  <div id="controls" aria-hidden="true">
+    <button id="close" type="button" tabindex="-1"><span aria-hidden="true">&#x2715;</span> Close Jansky</button>
+  </div>
+</main>
+<script src="face.js"></script>
+</body>
+</html>

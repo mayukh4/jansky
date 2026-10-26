@@ -1,0 +1,9 @@
+numpy
+scipy
+sounddevice
+soundfile
+onnxruntime
+kokoro-onnx
+sentencepiece
+sherpa-onnx==1.13.8
+pyusb
