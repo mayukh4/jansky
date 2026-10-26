@@ -29,7 +29,7 @@ voice never leaves the room.
 | [Active Cooler](https://www.raspberrypi.com/products/active-cooler/) | Required. Without it the Pi throttles at 85 °C |
 | [reSpeaker Flex XVF3800 Circular-4 with XIAO ESP32S3](https://www.seeedstudio.com/reSpeaker-Flex-XVF3800-Circular-4-with-XIAO-ESP32S3-p-6739.html) | Mic array. Plug into a **USB-A** port |
 | Small speaker, 4 Ω, 3–10 W | On the reSpeaker's JST output, so its echo cancellation can hear it |
-| [Raspberry Pi Touch Display, 7"](https://www.raspberrypi.com/products/raspberry-pi-touch-display/) (800×480) | The face |
+| 7" 800×480 DSI touchscreen | The face. The [official 7" display](https://www.raspberrypi.com/products/raspberry-pi-touch-display/) or the [Freenove 7"](https://www.amazon.ca/dp/B0B44VZTRG) |
 | [27 W USB-C power supply](https://www.raspberrypi.com/products/27w-power-supply/) | |
 | microSD card, 32 GB or more | Raspberry Pi OS 64-bit (Trixie), desktop |
 
